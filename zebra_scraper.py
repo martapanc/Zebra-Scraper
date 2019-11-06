@@ -2,6 +2,7 @@
 
 import requests
 import configparser
+import json
 
 def main():
 	config = configparser.RawConfigParser()
@@ -15,5 +16,13 @@ def main():
 	}
 	return requests.get(LIVE_BALANCE_URL, headers = headers).json()
 
+
+def save_results():
+	res = main()
+	f = open("data/%s.json" % res.get("lastUpdated"),"w+")
+	f.write(json.dumps(res, sort_keys=True, indent=4))
+	f.close()
+
 if __name__ == '__main__':
     print(main())
+    # save_results()
