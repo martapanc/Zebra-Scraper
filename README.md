@@ -1,5 +1,4 @@
-# Zebra Scraper :racehorse:
-(Image of a horse because there's no zebra emoji)
+# 🦓 🦓 🦓 Zebra Scraper 🦓 🦓 🦓
 
 ### Requisites
 - Python 3
