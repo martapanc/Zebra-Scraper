@@ -1,0 +1,29 @@
+{
+    "cclCharges": 0.0,
+    "currentBalance": -55.73,
+    "discountCharges": 0.0,
+    "estimatedCharges": 28.19,
+    "heldCharges": 0.0,
+    "lastBill": null,
+    "lastTransactionBalance": -130.35,
+    "lastUpdated": "2019-11-06T15:39:42.9644146+00:00",
+    "newTransactions": -130.35,
+    "oia": null,
+    "pendingPayments": 0.0,
+    "standingCharges": 12.57,
+    "total": {
+        "$type": "CRMPortalServices.Interface.Account.Statementing.StatementTotalLine, CRMPortalServices.Interface",
+        "gross": 74.62,
+        "net": 71.07,
+        "tax": 3.55,
+        "taxDetails": [
+            {
+                "$type": "CRMPortalServices.Interface.Account.Statementing.StatementTotalDetail, CRMPortalServices.Interface",
+                "description": "VAT at 5%",
+                "net": 71.07,
+                "tax": 3.55
+            }
+        ]
+    },
+    "unbilledCharges": 30.31
+}

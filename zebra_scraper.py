@@ -19,8 +19,10 @@ def main():
 
 def save_results():
 	res = main()
-	f = open("data/%s.json" % res.get("lastUpdated"),"w+")
+	timestamp = res.get("lastUpdated")
+	f = open("data/%s.json" % timestamp,"w+")
 	f.write(json.dumps(res, sort_keys=True, indent=4))
+	print("Live balance obtained on %s" % timestamp)
 	f.close()
 
 if __name__ == '__main__':
