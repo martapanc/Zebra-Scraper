@@ -1,7 +1,3 @@
-[Login]
-site.username="<email>"
-site.password=<password>
-
 [Api]
 api.url=https://www.zebrapower.co.uk/api/Accounts/<acc no>/liveBalances
 api.auth=<auth token>
